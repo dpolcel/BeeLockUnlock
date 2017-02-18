@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "315031935164",
+    "firebase_url": "https://beelockunlock-54058.firebaseio.com",
+    "project_id": "beelockunlock-54058",
+    "storage_bucket": "beelockunlock-54058.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:315031935164:android:cfe4852787def29a",
+        "android_client_info": {
+          "package_name": "br.com.polcel.beelockunlock"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "315031935164-82n540cboqbuhig2cc6pa95ahrcb4fmm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.polcel.beelockunlock",
+            "certificate_hash": "3B7E1B9301CA061FAB620241352C85BADF958542"
+          }
+        },
+        {
+          "client_id": "315031935164-cjcgc7aruhchh69t16inkc6rbvu16h8o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrP0VZUyy23Vom8YC2H75bzARALOZCxyY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "315031935164-cjcgc7aruhchh69t16inkc6rbvu16h8o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
