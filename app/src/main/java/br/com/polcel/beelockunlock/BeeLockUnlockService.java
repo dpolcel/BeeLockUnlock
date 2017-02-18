@@ -30,7 +30,6 @@ public class BeeLockUnlockService extends Service {
         super.onCreate();
     }
 
-    // Register for Lockscreen event intents
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
         IntentFilter filter = new IntentFilter(Intent.ACTION_SCREEN_OFF);
@@ -45,7 +44,6 @@ public class BeeLockUnlockService extends Service {
         return START_STICKY;
     }
 
-    // Run service in foreground so it is less likely to be killed by system
     private void startForeground() {
         Notification notification = new NotificationCompat.Builder(this)
                 .setContentTitle(getResources().getString(R.string.app_name))
@@ -58,7 +56,6 @@ public class BeeLockUnlockService extends Service {
         startForeground(9999, notification);
     }
 
-    // Unregister receiver
     @Override
     public void onDestroy() {
         super.onDestroy();
