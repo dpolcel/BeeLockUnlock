@@ -64,8 +64,12 @@ public class MainActivity extends Activity implements LockscreenUtils.OnLockStat
         getWindow().getDecorView().setSystemUiVisibility(8);
 
         toggleHideBar();
-        playVideo();
-
+        try {
+            playVideo();
+        }
+        catch (Exception ex){
+            Log.i(TAG, ex.getMessage());
+        }
         if (getIntent() != null && getIntent().hasExtra("kill") && getIntent().getExtras().getInt("kill") == 1) {
             enableKeyguard();
             unlockHomeButton();
